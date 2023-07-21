@@ -17,3 +17,15 @@
         transfersEnabled = _transfersEnabled;
         creationBlock = block.number;
     }
+{
+  "optimizer": {
+    "enabled": true,
+    "runs": 100
+  },
+  "viaIR": true,
+  "outputSelection": {
+
+    }
+  },
+  "libraries": {}
+}
